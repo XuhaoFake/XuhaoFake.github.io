@@ -155,6 +155,81 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-使用Markdown遇到的问题及解决方法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/10/26/%E4%BD%BF%E7%94%A8Markdown%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/">使用Markdown遇到的问题及解决方法</a>
+    </h1>
+  
+
+        
+        <a href="/2020/10/26/%E4%BD%BF%E7%94%A8Markdown%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" class="archive-article-date">
+  	<time datetime="2020-10-26T11:02:24.154Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>因为最近刚开始弄自己的博客，在用Markdown的时候，总会遇到一些问题。就总结了一下，希望对大家能有所帮助。</p>
+<p><font face="微软雅黑" color=green size=3>ps：以后使用过程中遇到问题也都会在这个贴子更新</font></p>
+<h3 id="1-Markdown如何退出列表和区块编辑状态"><a href="#1-Markdown如何退出列表和区块编辑状态" class="headerlink" title="1.Markdown如何退出列表和区块编辑状态"></a>1.Markdown如何退出列表和区块编辑状态</h3><p><strong>问题</strong>：在输入<kbd>+</kbd>和<kbd>空格</kbd>之后和无序列表的名称之后，按<kbd>Enter</kbd>换行时发现编辑器会自动继续按照上一行的列表格式生成下一行。</p>
+<blockquote>
+<p><strong>解决方法</strong>：点击工具栏上方的<strong>段落</strong>，选择<strong>列表缩进</strong>，再选择<strong>减少缩进</strong>就可以啦。</p>
+</blockquote>
+<h3 id="2-怎么将创建的-md文件发布到自己的博客"><a href="#2-怎么将创建的-md文件发布到自己的博客" class="headerlink" title="2.怎么将创建的.md文件发布到自己的博客"></a>2.怎么将创建的.md文件发布到自己的博客</h3><p><strong>问题：</strong> 自己用Markdown做了一个关于博客内容的.md文件，我该怎么把他部署到服务器上？？</p>
+<blockquote>
+<p><strong>解决方法：</strong> 将创建好的**.md** 文件放入根目录的“\blog\source_posts “文件夹下。（该文件夹下会存放着一些待post的文件，例如在执行 hexo init 这句初始化命令的时候，自动生成的hello-world.md文件也会在该文件夹里）</p>
+<p>然后在终端进入<strong>blog</strong>所在的文件夹，依次输入以下代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&gt;hexo clean </span><br><span class="line">&gt;<span class="comment">//清除缓存文件 (db.json) 和已生成的静态文件 (public)。</span></span><br><span class="line"><span class="comment">//在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</span></span><br><span class="line">   </span><br><span class="line">&gt;hexo g     <span class="comment">//生成（静态文件）</span></span><br><span class="line">   </span><br><span class="line">&gt;hexo s     <span class="comment">//启动服务器</span></span><br><span class="line">&gt;<span class="comment">//默认情况下，访问网址为： http://localhost:4000/</span></span><br><span class="line">   </span><br><span class="line">&gt;hexo d     <span class="comment">//部署到网站，github服务器或者个人服务器</span></span><br></pre></td></tr></table></figure>
+
+</blockquote>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/10/26/%E4%BD%BF%E7%94%A8Markdown%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-使用说明" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
